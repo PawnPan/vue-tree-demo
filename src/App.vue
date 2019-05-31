@@ -29,6 +29,7 @@ export default {
             children: [
               {
                 title: "grandchild2",
+                selected: true,
               },
               {
                 title: "grandchild3",
