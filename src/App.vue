@@ -13,15 +13,25 @@ export default {
     return {
       data: {
         title: "root",
+        showChild: true,
         children: [
           {
             title: "child1",
+            showChild: true,
+            children: [
+              {
+                title: "grandchild1",
+              }
+            ]
           },
           {
             title: "child2",
             children: [
               {
-                title: "grandchild"
+                title: "grandchild2",
+              },
+              {
+                title: "grandchild3",
               }
             ]
           }
